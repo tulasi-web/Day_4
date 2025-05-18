@@ -1,0 +1,16 @@
+"""INPUT=ONLINE VIDEOS
+
+OUTPUT=VIDEOS [USE+ INDEXING]
+OUTPUT=VIDEOS [USE – INDEXING]
+OUTPUT=ONLINE  [USE -INDEXING]
+OUTPUT=ENILNO  [USE + INDEXING]
+OUTPUT=DEO    [USE-INDEXING]
+OUTPUT=NO  [USE+INDEXING]"""
+
+i="ONLINE VIDEOS"
+print(i[7::1])
+print(i[-7::1])
+print(i[-15:-7:1])
+print(i[5::-1])
+print(i[-4:-1:1])
+print(i[1::-1])

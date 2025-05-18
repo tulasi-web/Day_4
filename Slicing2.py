@@ -1,0 +1,13 @@
+"""INPUT=INSERT
+
+OUTPUT=IN  [USE +INDEXING]
+OUPUT=INSERT [USE + INDEXING]
+OUTPUT=TRESNI [USE – INDEXING]
+OUTPUT=NI  [USE – INDEXING]
+"""
+i="INSERT"
+print(i[:2])
+print(i[::])
+print(i[-1::-1])
+print(i[-5::-1])
+

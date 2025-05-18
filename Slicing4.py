@@ -1,0 +1,12 @@
+"""INPUT=MAILING
+
+OUTPUT=MAIL [USE – INDEXNG]
+OUTPUT=ING  [USE-INDEXING]
+OUTPUT=MIIG  [USE-INDEXING]
+OUTPUT=GIIM [USE+INDEXING]"""
+
+i="MAILING"
+print(i[-7:-3:1])
+print(i[-3::1])
+print(i[-7::2])
+print(i[6::-2])

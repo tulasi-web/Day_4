@@ -1,0 +1,11 @@
+"""INPUT=REVIEW
+
+OUTPUT=VIEW [USE +INDEXING]
+OUTPUT=WE  [USE +INDEXING]
+OUTPUT=RE [USING-INDEXING]
+OUTPUT=WEIV [USING-INDEXING]"""
+i="REVIEW"
+print(i[2::1])
+print(i[5:3:-1])
+print(i[-6:-4:1])
+print(i[-1:-5:-1])
